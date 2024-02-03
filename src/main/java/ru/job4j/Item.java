@@ -6,7 +6,7 @@ import java.util.Locale;
 public class Item {
     private int id;
     private String name;
-    LocalDateTime created = LocalDateTime.now();
+    private LocalDateTime created = LocalDateTime.now();
 
     public Item() {
     }
