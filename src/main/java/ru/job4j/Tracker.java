@@ -31,16 +31,7 @@ public class Tracker {
     }
 
     public Item[] findAll() {
-        Item[] result = new Item[items.length];
-        int size = 0;
-        for (int i = 0; i < items.length; i++) {
-            Item item = items[i];
-            if (item != null) {
-                result[size] = item;
-                size++;
-            }
-        }
-        return Arrays.copyOf(result, size);
+        return Arrays.copyOf(items, size);
     }
 
     private int indexOf(int id) {
