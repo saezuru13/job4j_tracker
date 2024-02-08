@@ -13,7 +13,8 @@ public class Bus implements Transport {
 
     @Override
     public double refuel(int fuel) {
-        return Transport.super.refuel(fuel);
+        double price = 11.20;
+        return fuel * price;
     }
 
     public static void main(String[] args) {
