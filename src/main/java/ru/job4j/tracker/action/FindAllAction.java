@@ -2,13 +2,13 @@ package ru.job4j.tracker.action;
 
 import ru.job4j.Item;
 import ru.job4j.Tracker;
-import ru.job4j.tracker.Input;
-import ru.job4j.tracker.Output;
+import ru.job4j.tracker.input.Input;
+import ru.job4j.tracker.output.Output;
 
-public class FindAll implements UserAction {
+public class FindAllAction implements UserAction {
     private final Output output;
 
-    public FindAll(Output output) {
+    public FindAllAction(Output output) {
         this.output = output;
     }
 
